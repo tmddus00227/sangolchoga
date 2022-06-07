@@ -12,6 +12,8 @@
   <link href="./css/tablet.css" rel="stylesheet" type="text/css">
   <link href="./css/mobile.css" rel="stylesheet" type="text/css">
   <link href="./images/sangol_wJH_icon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="./css/all.min.css" rel="stylesheet" type="text/css">
+
   <script src="./script/jquery-3.6.0.js"></script>
   <script src="./script/prefixfree.min.js"></script>
   <script src="./script/main.js"></script>
@@ -26,7 +28,16 @@
       </a>
     </h1>
 
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="t_btn">
+        <img src="./images/menu.png" alt="햄버거메뉴">
+    </label>
+
     <nav class="gnb">
+      <label for="toggle" class="c_btn">
+        <i class="fas fa-times"></i>
+    </label>
+    
       <ul>
         <li><a href="#" title="초가집">초가집</a>
         <ul class="sub">

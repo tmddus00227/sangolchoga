@@ -13,3 +13,5 @@ a{
     color: #333;
     text-decoration:none;
 }
+
+#toggle,.t_btn,.c_btn{display:none;}

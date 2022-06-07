@@ -24,15 +24,15 @@
     left:71%;top:57px;
   }
   .q_bar > ul > li{padding-right:10px;}
-  .q_bar > ul > li > a img{width:30px;}
+  .q_bar > ul > li > a img{width:35px;}
 
   /* 슬라이드 */
   .slide{
-    width:100%;height:450px;
+    width:100%;height:550px;
     margin:0px auto;
   }
   .slide > ul > li > a img{
-    width:100%;
+    width:100%;height:550px;
     object-fit:cover;
   }
 
@@ -60,6 +60,7 @@
   /* 초가집 근황 */
   .gallery{width:100%;height:1250px;}
   .gallery > ul{width:100%;}
+  .gallery > ul > li:hover{transform: scale(1.0);}
 
   /* 미리 만나보는 산골초가펜션 */
   .media{width:100%;height:730px;}
